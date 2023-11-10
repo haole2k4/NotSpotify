@@ -1,0 +1,478 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ----------- CSS --------- */
+.content-background-color {
+    background-color: aliceblue;
+    background-image: linear-gradient(to bottom right, rgb(148, 205, 255), rgb(223, 136, 255));
+}
+
+.web-background-color {
+    background-color: rgb(67, 0, 129);
+}
+
+.border-rad-9 {
+    border-radius: 9px;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+
+.icon-form {
+    margin-right: 5px;
+}
+
+.icon-form-2 {
+    margin: 0px 6px;
+}
+
+.social-icon {
+    font-size: 23px;
+}
+
+.clear {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.sqare {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.medium-square {
+    width: 71px;
+    height: 71px;
+    object-fit: cover;
+}
+
+.big-square {
+    width: 80px;
+    height: 80vh;
+    object-fit: cover;
+}
+
+.play-list-img {
+    border-radius: 50%;
+}
+
+.artist-list-img {
+    border-radius: 8px;
+}
+
+.music-playlist-icon {
+    font-size: 17px;
+}
+
+
+
+/* --------------------------- */
+
+
+
+
+body {
+    background-color: rgb(67, 0, 129);
+
+    font-family: sans-serif;
+}
+
+
+
+
+/*  ---------  CHUNG -------------*/
+#left-container,
+#right-container {
+    height: 85vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+/* ------- PHAN CHUNG ----------- */
+
+
+
+
+
+
+/* ---- START LEFT CONTAINER ----- */
+#left-container {
+    width: 25vw;
+    float: left;
+    margin-left: 0.5vw;
+}
+
+#left-container ul {
+    list-style-type: none;
+    height: 85vh;
+}
+
+#left-container li {
+    width: 100%;
+    background-color: burlywood;
+    background-image: linear-gradient(to bottom right, rgb(148, 205, 255), rgb(223, 136, 255));
+}
+
+
+#left-container li:nth-child(1) {
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    height: 7vh;
+    padding: 2vh 17px;
+    background-color: rgb(148, 205, 255);
+}
+
+#left-container li:nth-child(2) {
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    height: 7vh;
+    margin-bottom: 1.2vh;
+    padding: 2vh 17px;
+}
+
+#left-container li:nth-child(3) {
+    margin-top: 1.2vh;
+    border-radius: 13px;
+    height: 70vh;
+}
+
+#left-container li a {
+    text-decoration: none;
+    font-weight: 550;
+}
+
+.form-lib {
+    padding: 7px;
+    background-color: aquamarine;
+    border-radius: 14px;
+    margin-right: 10px;
+}
+
+
+
+.fnc-lib {
+    position: relative;
+    width: 100%;
+    height: 2.7vh;
+}
+
+.fnc-lib a {
+    position: absolute;
+}
+
+.right-fnc-lib {
+    right: 0;
+}
+
+.my-lib-list .lib-part {
+    height: 50px;
+    width: 100%;
+}
+
+.lib-part img,
+.lib-part .lib-infor {
+    display: inline-block;
+}
+
+.lib-part {
+    margin: 1.5vh 0px;
+}
+
+.lib-infor p {
+    font-size: 13.5px;
+    margin-top: 1vh;
+}
+
+.your-lib {
+    overflow-y: scroll;
+
+    width: 100%;
+    height: 54vh;
+}
+
+.your-lib::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+/* ------- END LEFT CONTAINER ------- */
+
+
+
+
+
+
+
+
+/* ----- START RIGHT CONTAINER ------ */
+#right-container {
+    width: 73vw;
+    float: right;
+    margin-right: 0.4vw;
+}
+
+.navigation {
+    position: relative;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+.navigation * {
+    margin: 0px 9px;
+}
+
+.navigation .right {
+    position: absolute;
+    right: 0;
+}
+
+.navigation .left {
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation .left .searching {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    position: relative;
+    width: 18vw;
+    display: none;
+}
+
+.navigation .searching input{
+    padding: 1.5vh 2vw;
+    width: 17vw;
+    background-color: transparent;
+    border: 0;
+    border-radius: 20px;
+}
+
+.navigation .left .searching i {
+    position: absolute;
+    left: 9px;
+}
+
+.right-list-container {
+    overflow-y: scroll;
+}
+
+.right-list-container {
+    overflow-y: scroll;
+    height: 73vh;
+    margin: 0px 0.6vw;
+}
+
+.right-list-container::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.playlist {
+    width: 100%;
+    height: 30vh;
+    margin-bottom: 7vh;
+}
+
+.playlist .header-playlist * {
+    display: inline-block;
+    position: absolute;
+}
+
+.header-playlist {
+    width: 100%;
+    height: 4vh;
+    position: relative;
+
+}
+
+
+.songs-playlist {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.songs-playlist::-webkit-scrollbar {
+    display: none;
+}
+
+.song {
+    display: block;
+    border-radius: 10px;
+    padding: 2vh 2vw;
+    margin: 2vh 2vw;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom right, rgb(81, 174, 255), rgb(208, 79, 255));
+}
+
+.song img {
+    margin-bottom: 2vh;
+}
+
+.song h3,
+.song p {
+    font-size: 0.9em;
+}
+
+
+
+
+.footer {
+    width: 100%;
+    height: 450px;
+}
+
+.first-footer,
+.second-footer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+.first-footer .infor {
+    /* border: 1px solid #333; */
+    width: 16vw;
+    height: 190px;
+    margin: 1vh 1vw;
+}
+
+.first-footer .infor * {
+    margin: 10px;
+}
+
+.first-footer .infor a {
+    text-decoration: none;
+}
+
+.second-footer {
+    position: relative;
+    align-items: center;
+}
+
+.second-footer * {
+    margin: 1vh 1vw;
+    text-decoration: none;
+}
+
+.second-footer p {
+    position: absolute;
+    right: 0;
+}
+
+/* ----- END RIGHT CONTAINER -------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------- START MUSIC -------------- */
+
+
+
+#playing-music-section {
+
+    content: "";
+    display: table;
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 13vh;
+    color: aliceblue;
+}
+
+.left-section,
+.middle-section,
+.right-section {
+    height: 12vh;
+    margin: 0.5vh 0.5vw;
+}
+
+.left-section {
+    width: 20vw;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* color: snow; */
+}
+
+
+.left-section * {
+    margin: 0px 0.3vw;
+}
+
+.left-section p {
+    display: inline-block;
+    margin: 0;
+    font-size: 0.7em;
+}
+
+
+.middle-section {
+    width: 54vw;
+
+}
+
+.middle-section .function-middle-section,
+.middle-section .music-middle-section {
+    height: 6vh;
+    display: flex;
+    align-items: center;
+}
+
+.middle-section .function-middle-section {
+    justify-content: center;
+}
+
+.middle-section .music-middle-section {
+    justify-content: space-around;
+}
+
+.right-section {
+
+    width: 20vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right-section * {
+    margin: 0 5px;
+}
+
+
+
+
+/* ---------- END MUSIC -------- */

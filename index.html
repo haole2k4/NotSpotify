@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./fonts/themify-icons/themify-icons.css">
+    <script src="scipt.js"></script>
+</head>
+
+<body>
+
+
+    <div id="left-container" class="border-rad-9">
+        <ul>
+
+            <li onclick="nonSearchingDisplay()">
+                <a >
+                    <i class="ti-home icon-form"></i>
+                    Home
+                </a>
+            </li>
+
+            <li onclick="searchingDisplay()">
+                <a>
+                    <i class="ti-search icon-form"></i>
+                    Search
+                </a>
+            </li>
+
+
+            <!-- Start Library -->
+            <li>
+                <div style=" width:100%; 
+                            margin-bottom: 0vh;
+                            padding: 3vh 17px;
+                            position: relative;
+                            ">
+
+                    <a href="" style="display: inline-block;">
+                        <i class=" ti-layout-column3 icon-form"></i>
+                        Your Library
+                    </a>
+
+                    <div style="display: inline-block;
+                                position: absolute;
+                                right: 0;">
+                        <a href=""><i class="icon-form-2 ti-arrow-right"></i></a>
+                        <a href=""><i class="icon-form-2 ti-plus"></i></a>
+                    </div>
+
+
+                </div>
+
+                <div style="width:100%; 
+                            margin: 1.5vh 17px;
+                        ">
+                    <a href="" class="form-lib">Play List</a>
+                    <a href="" class="form-lib">Artist</a>
+                </div>
+
+
+                <!-- Khuc nay cang ne chua xong dau -->
+                <div class="your-lib" style="padding: 17px;">
+
+                    <div class="fnc-lib">
+                        <a href="" class="left-fnc-lib">
+                            <i class="ti-search"></i>
+                        </a>
+
+                        <a href="" class="right-fnc-lib">
+                            Recent
+                            <i class="ti-list"></i>
+                        </a>
+
+                    </div>
+
+                    <div class="my-lib-list">
+
+                        <div class="lib-part">
+                            <a href="">
+                                <img src="./img/playlist/songNameShelter.jpg" alt="" class="sqare play-list-img">
+                                <div class="lib-infor">
+                                    HOYO - MIX
+                                    <br>
+                                    <p>Artist</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="lib-part">
+                            <a href="">
+                                <img src="./img/artist/artistNameHoyoMix.jpg" alt="" class="sqare artist-list-img">
+                                <div class="lib-infor">
+                                    HOYO - MIX
+                                    <br>
+                                    <p>Artist</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="lib-part">
+                            <a href="">
+                                <img src="./img/playlist/songNameShelter.jpg" alt="" class="sqare play-list-img">
+                                <div class="lib-infor">
+                                    HOYO - MIX
+                                    <br>
+                                    <p>Artist</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="lib-part">
+                            <a href="">
+                                <img src="./img/artist/artistNameHoyoMix.jpg" alt="" class="sqare artist-list-img">
+                                <div class="lib-infor">
+                                    HOYO - MIX
+                                    <br>
+                                    <p>Artist</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="lib-part">
+                            <a href="">
+                                <img src="./img/artist/artistNameHoyoMix.jpg" alt="" class="sqare artist-list-img">
+                                <div class="lib-infor">
+                                    HOYO - MIX
+                                    <br>
+                                    <p>Artist</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="lib-part">
+                            <a href="">
+                                <img src="./img/playlist/songNameShelter.jpg" alt="" class="sqare play-list-img">
+                                <div class="lib-infor">
+                                    HOYO - MIX
+                                    <br>
+                                    <p>Artist</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="lib-part">
+                            <a href="">
+                                <img src="./img/artist/artistNameHoyoMix.jpg" alt="" class="sqare artist-list-img">
+                                <div class="lib-infor">
+                                    HOYO - MIX
+                                    <br>
+                                    <p>Artist</p>
+                                </div>
+                            </a>
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+                <!-- End Library -->
+
+
+            </li>
+        </ul>
+
+    </div>
+
+
+    <!-- Start right container -->
+    <div id="right-container" class="content-background-color border-rad-9">
+
+        <div class="navigation">
+            <div class="left">
+                <a><i class="ti-angle-left"></i></a>
+                <a><i class="ti-angle-right"></i></a>
+                <div class="searching">
+                    <i class="ti-search"></i>
+                    <input type="text" placeholder="What do you want to listen to ?">
+                </div>
+
+            </div>
+            <div class="right">
+                <a class="form-lib">
+                    Explore Premium
+                </a>
+
+                <a class="form-lib">
+                    <i class="ti-download"></i>
+                    Install App
+                </a>
+
+                <a>
+                    <i class="ti-bell"></i>
+                </a>
+
+                <a>
+                    <i class="ti-user"></i>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="right-list-container">
+            <div class="playlist">
+                <div class="header-playlist">
+                    <h2 style="left: 0; margin: 0px 25px;">Your top mixes</h2>
+                    <a href="" style="right:0;  margin: 0px 25px;">Show all</a>
+                </div>
+                <div class="songs-playlist">
+                    <div href="" class="song">
+                        <img src="./img/playlist/songNameShelter.jpg" alt="" style="width: 8vw; border-radius: 50%;">
+                        <h3>Name</h3>
+                        <p>discription</p>
+                    </div>
+                    <div href="" class="song">
+                        <img src="./img/playlist/songNameShelter.jpg" alt="" style="width: 8vw; border-radius: 50%;">
+                        <h3>Name</h3>
+                        <p>discription</p>
+                    </div>
+                    <div href="" class="song">
+                        <img src="./img/playlist/songNameShelter.jpg" alt="" style="width: 8vw; border-radius: 50%;">
+                        <h3>Name</h3>
+                        <p>discription</p>
+                    </div>
+                    <div href="" class="song">
+                        <img src="./img/playlist/songNameShelter.jpg" alt="" style="width: 8vw; border-radius: 50%;">
+                        <h3>Name</h3>
+                        <p>discription</p>
+                    </div>
+                    <div href="" class="song">
+                        <img src="./img/playlist/songNameShelter.jpg" alt="" style="width: 8vw; border-radius: 50%;">
+                        <h3>Name</h3>
+                        <p>discription</p>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="playlist">
+                <div class="header-playlist">
+                    <h2 style="left: 0; margin: 0px 25px;">Your top mixes</h2>
+                    <a href="" style="right:0;  margin: 0px 25px;">Show all</a>
+                </div>
+                <div class="songs-playlist">
+                    <div href="" class="song">
+                        <img src="./img/playlist/songNameShelter.jpg" alt="" style="width: 8vw; border-radius: 50%;">
+                        <h3>Name</h3>
+                        <p>discription</p>
+                    </div>
+                    <div href="" class="song">
+                        <img src="./img/playlist/songNameShelter.jpg" alt="" style="width: 8vw; border-radius: 50%;">
+                        <h3>Name</h3>
+                        <p>discription</p>
+                    </div>
+                    <div href="" class="song">
+                        <img src="./img/playlist/songNameShelter.jpg" alt="" style="width: 8vw; border-radius: 50%;">
+                        <h3>Name</h3>
+                        <p>discription</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="playlist">
+                <div class="header-playlist">
+                    <h2 style="left: 0; margin: 0px 25px;">Your top mixes</h2>
+                    <a href="" style="right:0;  margin: 0px 25px;">Show all</a>
+                </div>
+                <div class="songs-playlist">
+                    <div href="" class="song">
+                        <img src="./img/playlist/songNameShelter.jpg" alt="" style="width: 8vw; border-radius: 50%;">
+                        <h3>Name</h3>
+                        <p>discription</p>
+                    </div>
+                    <div href="" class="song">
+                        <img src="./img/playlist/songNameShelter.jpg" alt="" style="width: 8vw; border-radius: 50%;">
+                        <h3>Name</h3>
+                        <p>discription</p>
+                    </div>
+                    <div href="" class="song">
+                        <img src="./img/playlist/songNameShelter.jpg" alt="" style="width: 8vw; border-radius: 50%;">
+                        <h3>Name</h3>
+                        <p>discription</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="playlist">
+                <div class="header-playlist">
+                    <h2 style="left: 0; margin: 0px 25px;">Your top mixes</h2>
+                    <a href="" style="right:0;  margin: 0px 25px;">Show all</a>
+                </div>
+                <div class="songs-playlist">
+                    <div href="" class="song">
+                        <img src="./img/playlist/songNameShelter.jpg" alt="" style="width: 8vw; border-radius: 50%;">
+                        <h3>Name</h3>
+                        <p>discription</p>
+                    </div>
+                    <div href="" class="song">
+                        <img src="./img/playlist/songNameShelter.jpg" alt="" style="width: 8vw; border-radius: 50%;">
+                        <h3>Name</h3>
+                        <p>discription</p>
+                    </div>
+                    <div href="" class="song">
+                        <img src="./img/playlist/songNameShelter.jpg" alt="" style="width: 8vw; border-radius: 50%;">
+                        <h3>Name</h3>
+                        <p>discription</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="playlist">
+                <div class="header-playlist">
+                    <h2 style="left: 0; margin: 0px 25px;">Your top mixes</h2>
+                    <a href="" style="right:0;  margin: 0px 25px;">Show all</a>
+                </div>
+                <div class="songs-playlist">
+                    <div href="" class="song">
+                        <img src="./img/playlist/songNameShelter.jpg" alt="" style="width: 8vw; border-radius: 50%;">
+                        <h3>Name</h3>
+                        <p>discription</p>
+                    </div>
+                    <div href="" class="song">
+                        <img src="./img/playlist/songNameShelter.jpg" alt="" style="width: 8vw; border-radius: 50%;">
+                        <h3>Name</h3>
+                        <p>discription</p>
+                    </div>
+                    <div href="" class="song">
+                        <img src="./img/playlist/songNameShelter.jpg" alt="" style="width: 8vw; border-radius: 50%;">
+                        <h3>Name</h3>
+                        <p>discription</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="first-footer">
+                    <div class="infor">
+                        <h3>Company</h3>
+                        <a href="">About</a> <br>
+                        <a href="">Jobs</a> <br>
+                        <a href="">For the record</a>
+                    </div>
+
+                    <div class="infor">
+                        <h3>Communities</h3>
+                        <a href="">For artists</a> <br>
+                        <a href="">Developers</a> <br>
+                        <a href="">Advertising</a> <br>
+                        <a href="">Investor</a> <br>
+                        <a href="">Vendors</a>
+                    </div>
+
+                    <div class="infor">
+                        <h3>Useful links</h3>
+                        <a href="">Support</a> <br>
+                        <a href="">Free Moblile App</a>
+                    </div>
+
+
+                    <div class="infor">
+                        <a href=""><i class="social-icon ti-youtube"></i></a>
+                        <a href=""><i class="social-icon ti-twitter"></i></a>
+                        <a href=""><i class="social-icon ti-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div style="width: 100%; height: 1px; background-color: rgb(0, 0, 88);"></div>
+
+
+
+                <div class="second-footer">
+                    <a href="">Legal</a>
+                    <a href="">Privacy Center</a>
+                    <a href="">Privacy Policy</a>
+                    <a href="">Cookies</a>
+                    <a href="">About Ads</a>
+                    <a href="">Accessibility</a>
+
+                    <p>© 2023 Spotify AB</p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+
+    <div id="playing-music-section" class="web-background-color">
+        <div class="left-section"> <!-- khuc nay con phan gif la phat nhacj=-->
+            <img src="./img/playlist/songNameShelter.jpg" alt="" class="medium-square border-rad-9">
+            <div class="music-information">
+                <h4>Shelter</h4>
+                <div>
+                    <p>Porter Robinson</p>,
+                    <p>Madeon</p>
+                </div>
+            </div>
+            <i class="ti-heart music-playlist-icon"></i>
+        </div>
+
+        <div class="middle-section">
+            <div class="function-middle-section">
+                <i class="ti-control-skip-backward"></i>
+                <i class="ti-control-backward"></i>
+                <i class="ti-control-pause"></i>
+                <i class="ti-control-play"></i>
+                <i class="ti-control-forward"></i>
+                <i class="ti-control-skip-forward"></i>
+            </div>
+
+            <div class="music-middle-section">
+                <p>0:00</p>
+                <input type="range" style="width: 80%;">
+                <p>4:30</p>
+            </div>
+        </div>
+
+        <div class="right-section">
+            <i class="ti-music-alt"></i>
+            <i class="ti-microphone"></i>
+            <i class="ti-layout-menu-v"></i>
+            <i class="ti-mobile"></i>
+            <i class="ti-volume"></i>
+            <input type="range" style="width: 90px;">
+        </div>
+
+    </div>
+
+    
+</body>
+
+</html>
