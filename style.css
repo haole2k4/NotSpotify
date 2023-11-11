@@ -319,6 +319,10 @@ body {
     margin: 0px 25px;
 }
 
+.header-playlist div {
+    right: 0;
+    margin: 0px 25px;
+}
 
 .songs-playlist {
     display: flex;
@@ -414,7 +418,6 @@ body {
 
 
 #playing-music-section {
-
     content: "";
     display: table;
     clear: both;
