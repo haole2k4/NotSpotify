@@ -227,6 +227,8 @@ body {
     margin-right: 0.4vw;
 }
 
+
+
 .navigation {
     position: relative;
     height: 10vh;
@@ -276,9 +278,10 @@ body {
     left: 9px;
 }
 
-.right-list-container {
-    overflow-y: scroll;
+.right-list-container::-webkit-scrollbar {
+    display: none;
 }
+
 
 .right-list-container {
     overflow-y: scroll;
@@ -286,16 +289,14 @@ body {
     margin: 0px 0.6vw;
 }
 
-.right-list-container::-webkit-scrollbar {
-    display: none;
-}
 
 
 
 .playlist {
     width: 100%;
     height: 30vh;
-    margin-bottom: 10vh;
+    margin-bottom: 8em;
+
 }
 
 .playlist .header-playlist * {
@@ -331,22 +332,61 @@ body {
 .song {
     display: block;
     border-radius: 10px;
-    padding: 2vh 2vw;
-    margin: 2vh 2vw;
+    padding: 1.75em;
+    margin: 1.5em;
     cursor: pointer;
     background-image: linear-gradient(to bottom right, rgb(81, 174, 255), rgb(208, 79, 255));
 }
 
 .song img {
     margin-bottom: 2vh;
-    width: 8vw;
-    /* width: 8em; */
+    width: 8em;
     border-radius: 50%;
 }
 
 .song h3,
 .song p {
     font-size: 0.9em;
+}
+
+
+.searching-part {
+    display: none;
+}
+
+
+.searching-recommend {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-basis: 20%;
+    flex-wrap: wrap;
+    display: none;
+}
+
+.searching-recommend .searching-section {
+    width: 170px;
+    height: 170px;
+    padding: 9px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    flex-basis: calc(20% - 2em);
+    margin: 1em;
+}
+
+.searching-section h2 {
+    overflow-y: visible;
+}
+
+.searching-img {
+    position: absolute;
+    width: 6.3em;
+    height: 6.3em;
+    transform: rotate(30deg);
+    right: -0.8em;
+    bottom: -0.8em;
 }
 
 
