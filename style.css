@@ -125,7 +125,6 @@ body {
 
 #left-container li {
     width: 100%;
-    background-color: burlywood;
     background-image: linear-gradient(to bottom right, rgb(148, 205, 255), rgb(223, 136, 255));
 }
 
@@ -237,10 +236,6 @@ body {
 
 }
 
-.navigation a {
-    text-decoration: none;
-}
-
 .navigation * {
     margin: 0px 9px;
 }
@@ -300,7 +295,7 @@ body {
 .playlist {
     width: 100%;
     height: 30vh;
-    margin-bottom: 7vh;
+    margin-bottom: 10vh;
 }
 
 .playlist .header-playlist * {
@@ -338,7 +333,6 @@ body {
     border-radius: 10px;
     padding: 2vh 2vw;
     margin: 2vh 2vw;
-
     cursor: pointer;
     background-image: linear-gradient(to bottom right, rgb(81, 174, 255), rgb(208, 79, 255));
 }
@@ -346,6 +340,7 @@ body {
 .song img {
     margin-bottom: 2vh;
     width: 8vw;
+    /* width: 8em; */
     border-radius: 50%;
 }
 
