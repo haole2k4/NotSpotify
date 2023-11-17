@@ -80,6 +80,42 @@
     background-color: rgb(0, 0, 88);
 }
 
+.base-margin {
+    margin: 1em 0.4em;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.inl-bl {
+    display: inline-block;
+}
+
+.rel {
+    position: relative;
+}
+
+.abs {
+    position: absolute;
+}
+
+.to-right {
+    right: 0;
+}
+
+.to-left {
+    left: 0;
+}
+
+.to-top {
+    top: 0;
+}
+
+.to-bottom {
+    bottom: 0;
+}
+
 
 
 /* --------------------------- */
@@ -125,6 +161,7 @@ body {
 
 #left-container li {
     width: 100%;
+    font-weight: 550;
     background-image: linear-gradient(to bottom right, rgb(148, 205, 255), rgb(223, 136, 255));
 }
 
@@ -149,11 +186,6 @@ body {
     margin-top: 1.2vh;
     border-radius: 13px;
     height: 70vh;
-}
-
-#left-container li a {
-    text-decoration: none;
-    font-weight: 550;
 }
 
 .form-lib {
@@ -365,15 +397,15 @@ body {
 }
 
 .searching-recommend .searching-section {
-    width: 170px;
-    height: 170px;
-    padding: 9px;
+    width: 190px;
+    height: 180px;
+    padding: 10px;
     border-radius: 10px;
     cursor: pointer;
     position: relative;
     overflow: hidden;
-    flex-basis: calc(20% - 2em);
-    margin: 1em;
+    flex-basis: calc(20% - 0.9em);
+    margin: 0.4em;
 }
 
 .searching-section h2 {
@@ -493,7 +525,10 @@ body {
 
 .middle-section {
     width: 54vw;
+}
 
+.middle-section .music-middle-section input{
+    width: 80%;
 }
 
 .middle-section .function-middle-section,
@@ -521,6 +556,10 @@ body {
 
 .right-section * {
     margin: 0 5px;
+}
+
+.right-section input {
+    width: 90px;
 }
 
 
