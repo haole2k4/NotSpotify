@@ -43,6 +43,14 @@ function nonSearchingDisplay() {
 
 
 
+function showUserAction() {
+    let user = document.getElementById("user");
+    if (user.style.display === 'none') {
+        user.style.display = 'block';
+    } else {
+        user.style.display = 'none';
+    }
+}
 
 
 
